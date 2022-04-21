@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+body{
+  font-family: "Roboto";
+  font-weight: 500;
+  color: #959BA4;
+  line-height: 117%;
+  height: 100vh;
+}
+nav{
+  margin: 0 auto 3.5rem auto;
+  background-color: #F5F5F6;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  font-size: 11px;
+}
+.navbar{
+  width: 100%;
+  margin: 0 6.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu{
+  width: 65%;
+}
+#menu-list{
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}
+.menu-item{
+  cursor: pointer;
+}
+.menu-item:hover{
+  color: black;
+}
+#site-logo{
+  width: 89px;
+  height: 23px;
+  background: url("./images/site-logo.png") no-repeat;
+}
+#sign-in{
+  width: 3.5rem;
+  height: 2rem;
+  background-color: white;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+main{
+  max-width: 40rem;
+  margin: 0 auto;
+}
+.convert-section{
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
+.convert-header{
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: black;
+  margin-bottom: 2.5rem;
+}
+.convert-from, .convert-to{
+  width: 259px;
+}
+.convert-from p, .convert-to p{
+  display: flex;
+  align-items: center;
+  height: 28px;
+}
+.convert-title{
+  color: #9f9f9f;
+  font-weight: 400;
+}
+.currency-list{
+  width: 100%;
+  height: 1.75rem;
+  display: flex;
+  margin-bottom: 1.25rem;
+}
+.currency-list .currency-item{
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #e5e5e5;
+  border-radius: 3px 0 0 3px;
+  color: #c6c6c6;
+  cursor: pointer;
+  font-weight: 400;
+}
+.currency-list .currency-item:hover{
+  background-color: #833AE0;
+  color: white;
+}
+.input-section, .result-section{
+  width: 100%;
+  height: 6.3rem;
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+}
+.input-section .input, .result-section .result{
+  font-size: 2.25rem;
+  margin: 0.75rem 0 0 0.75rem;
+  color: black;
+}
+.input-section .input-rate, .result-section .result-rate{
+  margin: 2rem 0 0 0.75rem;
+}
