@@ -66,12 +66,6 @@ nav{
   border-radius: 0.25rem;
   cursor: pointer;
 }
-label #bars, label #cancel{
-  display: none;
-}
-#check{
-  display: none;
-}
 
 main{
   max-width: 55%;
@@ -145,25 +139,13 @@ main{
     right: 1rem;
   }
   .menu{
-    width: 80%;
+    display: none;
   }
 }
 
 @media (max-width: 834px){
   .convert-header{
     text-align: center;
-  }
-  #bars{
-    display: block;
-    font-size: 2rem;
-  }
-  label #bars, label #cancel{
-    position: absolute;
-    font-size: 2rem;
-    display: flex;
-    right: 2rem;
-    top: 0.5rem;
-    cursor: pointer;
   }
 }
 
