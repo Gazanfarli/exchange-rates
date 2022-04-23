@@ -6,12 +6,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
   <div class="container">
 
     <nav>
+      <label for="check">
+        <i class="fa fa-bars" id="bars"></i>
+        <i class="fa fa-times" id="cancel"></i>
+      </label>
       <div class="navbar">
+        <input type="checkbox" id="check">
         <div id="site-logo"></div>
         <div class="menu">
           <ul id="menu-list">
@@ -36,12 +42,12 @@
           <ul class="currency-list">
             <li class="currency-item active">RUB</li>
             <li class="currency-item">USD</li>
-            <li class="currency-item">EURO</li>
+            <li class="currency-item">EUR</li>
             <li class="currency-item">GBP</li>
           </ul>
           <div class="input-section">
-            <input type="number" id="input" value="5000">
-            <p class="input-rate">1 RUB = 0.0135 USD</p>
+            <input type="number" id="input" placeholder="0">
+            <p class="input-rate"></p>
           </div>
         </div>
         <div class="convert-to">
@@ -49,12 +55,12 @@
           <ul class="currency-list">
             <li class="currency-item">RUB</li>
             <li class="currency-item active">USD</li>
-            <li class="currency-item">EURO</li>
+            <li class="currency-item">EUR</li>
             <li class="currency-item">GBP</li>
           </ul>
           <div class="result-section">
-            <input type="number" id="result" value="67.6685">
-            <p class="result-rate">1 USD = 73.8896 RUB</p>
+            <input type="number" id="result" placeholder="0">
+            <p class="result-rate"></p>
           </div>
         </div>
       </div>
