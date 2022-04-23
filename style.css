@@ -138,14 +138,14 @@ main{
     position: absolute;
     right: 1rem;
   }
-  .menu{
-    display: none;
-  }
 }
 
 @media (max-width: 834px){
   .convert-header{
     text-align: center;
+  }
+  .menu{
+    display: none;
   }
 }
 
