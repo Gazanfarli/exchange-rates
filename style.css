@@ -68,8 +68,7 @@ nav{
 }
 
 main{
-  max-width: 55%;
-  min-width: 550px;
+  width: 640px;
   margin: 0 auto;
 }
 .convert-section{
@@ -138,23 +137,30 @@ main{
     position: absolute;
     right: 1rem;
   }
+  .menu{
+    width: 80%;
+  }
 }
 
 @media (max-width: 834px){
-  .convert-header{
-    text-align: center;
-  }
   .menu{
     display: none;
+  }
+  main{
+    width: 580px;
   }
 }
 
 @media (max-width: 665px){
+  main{
+    width: 100%;
+  }
   .convert-header{
     margin-bottom: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
   }
   .convert-section{
-    min-width: 450px;
     margin: 0 auto;
     flex-direction: column;
   }
